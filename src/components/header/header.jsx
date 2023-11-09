@@ -1,15 +1,18 @@
+import styles from './header.module.css'
+import logo from '../../img/LOGO.png'
 export const Header = () => {
 
 
     return (
         <header>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Programm</li>
-                    <li>Profile</li>
+            <div className={styles.cont}>
+            <img src={logo} alt="logo" className={styles.logotip}/>
+                <ul className={styles.ul_nav}>
+                    <li className={styles.li_nav}><a href="#">Home</a></li>
+                    <li className={styles.li_nav}><a href="#">Programm</a></li>
+                    <li className={styles.li_nav}><a href="# ">Profile</a></li>
                 </ul>
-            </nav>
+                </div>
         </header>
     )
 }

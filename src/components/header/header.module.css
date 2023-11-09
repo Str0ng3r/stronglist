@@ -1,0 +1,25 @@
+
+.cont {
+    padding: 30px 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+    margin: 0 auto;
+    height: 80px;
+}
+.logotip {
+    width: 80px;
+}
+.ul_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.li_nav {
+    list-style-type: none;
+}
